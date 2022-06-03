@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat or dog?</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <section class="main">
+
+        <h1 class="title">Cat or dog?</h1>
+
+        <div class="container">
+            <input id="image-file" type="file" onchange="getSentiment(this)" accept="image/*">
+            <div id="display_image"><img id="output" width="200" /></div>
+            <!--<textarea id="input" oninput="getSentiment()" placeholder="Let 'em hear it"></textarea>-->
+        </div>
+        Looks like you have a... <div id="result"></div>
+        <div id="emoji"></div>
+    </section>
+</body>
+<script src='scripts/script.js'></script>
+</html>
