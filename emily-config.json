@@ -1,0 +1,9 @@
+{
+    "id": "MXHEM0",
+    "name": "image-classification",
+    "containerName": "emily-image-classification-mxhem0",
+    "image": "torch-cv",
+    "imageVersion": "1.0.0",
+    "emilyVersion": "3.0.2",
+    "mountTargets": []
+}

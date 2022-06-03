@@ -1,0 +1,12 @@
+{
+    "type": "local",
+    "environment": "dev",
+    "configuration": "dev",
+    "excludes": [],
+    "mounts": [
+        {
+            "from": "../data",
+            "to": "/workspace/data"
+        }
+    ]
+}
